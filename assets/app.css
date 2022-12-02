@@ -1,0 +1,16 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ddedf8;
+}
+
+.badge {
+  background-color: rgb(72, 230, 125);
+}
+
+#projects {
+  background-color: #ddedf8;
+}
+
+section {
+  padding-top: 5rem;
+}
