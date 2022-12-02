@@ -14,3 +14,13 @@
 section {
   padding-top: 5rem;
 }
+
+@font-face {
+  font-family: "ZenDots";
+  src: url("font/ZenDots-Regular.ttf") format("truetype");
+}
+
+h5 {
+  font-family: "ZenDots", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
