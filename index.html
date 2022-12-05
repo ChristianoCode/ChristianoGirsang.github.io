@@ -153,7 +153,7 @@
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 10em" name="pesan"></textarea>
                 <label for="floatingTextarea" style="color: rgb(153, 153, 153)">Comments</label>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" id="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -179,6 +179,10 @@
 
     <!-- Javascript Form to Google Sheets -->
     <script>
+      const submit = document.getElementById("submit");
+      submit.addEventListener("click", function () {
+        alert("Data berhasil dikirim!");
+      });
       const scriptURL = "https://script.google.com/macros/s/AKfycbz3mvU4UY2i-JbVYnBnWQOqjEwLiqk6KnsLkDlRXdWSBiIs2vRZz6cFF-oICALaeDLP/exec";
       const form = document.forms["ccContact"];
 
